@@ -1,0 +1,1922 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid -->
+<html class="no-js" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- TITLE -->
+    <title>Responsive Online Email Builder</title>
+    <!-- DESCRIPTION -->
+    <meta name="description" content="">
+    <!-- KEYWORDS -->
+    <meta name="keywords" content="">
+    
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <!-- ICONS  -->
+    <link rel="stylesheet" type="text/css" href="./Responsive Online Email Builder_files/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="./Responsive Online Email Builder_files/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="./Responsive Online Email Builder_files/spectrum.min.css">
+	<link rel="stylesheet" href="./Responsive Online Email Builder_files/jquery-confirm.min.css">
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" type="text/css" href="./Responsive Online Email Builder_files/style.css">
+	<link rel="stylesheet" type="text/css" href="./Responsive Online Email Builder_files/mobile.css">
+
+	<!-- GOOGLE FONTS LINK -->
+	<link href="./Responsive Online Email Builder_files/css" rel="stylesheet">
+	<link href="./Responsive Online Email Builder_files/css(1)" rel="stylesheet">
+
+
+</head>
+<body>
+	<style type="text/css">
+		/*------ RESET STYLE ------ */
+		*{-webkit-text-size-adjust:none;-webkit-text-resize:100%;text-resize:100%;}
+		table{border-spacing: 0;border-collapse: collapse !important;}
+		h1, h2, h3, h4, h5, h6{display:block; Margin:0; padding:0;}
+		img, a img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+		body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+		
+		/*------ CLIENT-SPECIFIC STYLE ------ */
+		@-ms-viewport{width:device-width;}
+		table{mso-table-lspace:0pt; mso-table-rspace:0pt;}
+		p, a, li, td, blockquote{mso-line-height-rule:exactly;}
+		p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;}
+		#outlook a{padding:0;}
+		.ReadMsgBody{width:100%;} .ExternalClass{width:100%;}
+		.ExternalClass,.ExternalClass div,.ExternalClass font,.ExternalClass p,.ExternalClass span,.ExternalClass td,img{line-height:100%;}
+
+		/*------ GOOGLE FONT STYLE ------ */
+		[style*="Open Sans"] {font-family:'Open Sans', Helvetica, Arial, sans-serif !important;}
+		[style*="Lora"] {font-family:'Lora', Georgia, Times, serif !important;}
+
+		/*------ GENERAL STYLE ------ */
+		.wrapperTable{width:100%; max-width:620px; Margin:0 auto;}
+
+	</style>
+	<div class="nothing"></div>
+<div class="loader hide_block">
+	<div class="loader-wrapper">
+		<div class="loader-circle"></div>
+	</div>
+</div>
+<section class="screen__wrapper">
+	<div class="sideToolNav p_bg">
+		<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#gift-pop" rel="modal:open"><div class="bld__logo" title="Click Me :) ">G</div></a>
+
+		<ul class="toolNav__wrapper">
+			<li class="active" data-rel="style" title="Color Style"><i class="ion-android-color-palette"></i></li>
+			<li data-rel="typo" title="Typography"><span style="font-weight:900!important">T</span></li>
+			<li data-rel="block" title="All Blocks"><i class="ion-android-checkbox-blank"></i></li>
+			<li data-rel="social" title="Social Icons"><i class="ion-android-share-alt"></i></li>
+			<li data-rel="save" title="Save Template"><i class="ion-android-archive"></i></li>
+			<!-- <li><i class="ion-android-settings"></i></li> -->
+		</ul>
+		
+		<ul class="bld__otherBtn">
+			<li class="other__items" title="Change Template"><i class="ion-shuffle"></i></li>
+			<li title="Give us High Ratings"><a href="https://themeforest.net/downloads" target="_blank"><i class="ion-star"></i></a></li>
+			
+		</ul>
+		<!-- <div class="bld__btnSave" title="Save Template"><i class="ion-android-archive"></i></div> -->
+	</div>
+
+	<div class="toolsSection">
+
+		<div class="toolsSection__style isCurrent">
+			<div class="info__text">Email Color Property</div>
+			<ul>
+				<li>
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Email Bg Color</a>
+	                <input type="text" id="bg-color" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(245, 245, 244);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+				<li>
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Post Bg Color</a>
+	                <input type="text" id="card-bgColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(255, 255, 255);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+
+	            <div class="info__text">Header Style</div>
+	            <li class="headerBlock" data-img="bld/img/preheader.png">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Pre-Header Color</a>
+	                <input type="text" id="preheader-textColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(187, 187, 187);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+	            <li class="headerBlock" data-img="bld/img/emailtitle.png">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Header Title Color</a>
+	                <input type="text" id="headertitle-textColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(51, 51, 51);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+	            <li class="headerBlock" data-img="bld/img/emailmenu.png">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Header Sub Title Color</a>
+	                <input type="text" id="headersubtitle-textColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(119, 119, 119);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+
+	            <div class="info__text">Post Style</div>
+	            <li class="catagory-textColor">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" data-img="bld/img/postcatagory.png">Catagory Color</a>
+	                <input type="text" id="catagory-textColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(177, 150, 255);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+	            <li class="divider-borderColor hide_block" data-img="bld/img/postcatagory.png">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Divider Color</a>
+	                <input type="text" id="divider-borderColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(177, 150, 255);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+	            <li data-img="bld/img/posttitle.png">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Tile Color</a>
+	                <input type="text" id="title-textColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(25, 25, 25);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+	             <li data-img="bld/img/postdesc.png">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Description Color</a>
+	                <input type="text" id="description-textColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(119, 119, 119);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+
+	            <div class="info__text">Button Style</div>
+	            <li data-img="bld/img/postbtn.png">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Button Text Color</a>
+	                <input type="text" id="button-textColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(25, 25, 25);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+	            <li class="button-bgColor hide_block" data-img="bld/img/postbtn.png">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Button Bg Color</a>
+	                <input type="text" id="button-bgColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(25, 25, 25);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+	            <li class="button-borderColor" data-img="bld/img/postbtn.png">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Button Border Color</a>
+	                <input type="text" id="button-borderColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(221, 221, 221);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+
+	            <div class="info__text">Footer Style</div>
+	            <li class="footerBlock" data-img="bld/img/brandinfo.png">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Footer Link Color</a>
+	                <input type="text" id="link-textColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(119, 119, 119);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+	            <li class="footerBlock" data-img="bld/img/brandinfo.png">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Footer Text Color</a>
+	                <input type="text" id="footer-textColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(119, 119, 119);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+
+	            <div class="info__text">Special Block Style</div>
+	            <li class="footerBlock">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Block Bg Color</a>
+	                <input type="text" id="footerBlock-bgColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(216, 216, 216);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+	            <li class="footerBlock">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Block Title Color</a>
+	                <input type="text" id="footerBlock-titleTextColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(119, 119, 119);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+	            <li class="footerBlock">
+	                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Block Description Color</a>
+	                <input type="text" id="footerBlock-descTextColor" style="display: none;"><div class="sp-replacer sp-light"><div class="sp-preview"><div class="sp-preview-inner" style="background-color: rgb(119, 119, 119);"></div></div><div class="sp-dd">▼</div></div>
+	            </li>
+
+            </ul>
+		</div>
+
+		<div class="toolsSection__typo">
+			<div class="info__text">Typography</div>
+			<div id="accordion" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+				<h3 class="headerBlock ui-accordion-header ui-corner-top ui-state-default ui-accordion-header-active ui-state-active ui-accordion-icons" data-img="bld/img/emailtitle.png" role="tab" id="ui-id-13" aria-controls="ui-id-14" aria-selected="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Header Email Title</h3>
+				<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content ui-accordion-content-active" id="ui-id-14" aria-labelledby="ui-id-13" role="tabpanel" style="display: block;" aria-hidden="false">
+					<li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Size</a>
+		                <select name="emailTitle" data-class="p" id="fontSize-emailTitle" style="display: none;">
+		                  <option value="11">11px</option>
+					      <option value="12">12px</option>
+					      <option value="14">14px</option>
+					      <option value="16">16px</option>
+					      <option value="18">18px</option>
+					      <option value="20">20px</option>
+					      <option value="22">22px</option>
+					      <option value="24">24px</option>
+					      <option value="26" selected="selected">26px</option>
+					      <option value="28">28px</option>
+					      <option value="30">30px</option>
+					    </select><span tabindex="0" id="fontSize-emailTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontSize-emailTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">26px</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Weight</a>
+		                <select name="emailTitle" data-class="p" id="fontWeight-emailTitle" style="display: none;">
+					      <option value="300">300</option>
+					      <option value="400" selected="selected">400</option>
+					      <option value="600">600</option>
+					      <option value="700">700</option>
+					    </select><span tabindex="0" id="fontWeight-emailTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontWeight-emailTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">400</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Family Type</a>
+		                <select name="emailTitle" data-class="p" id="fontFamily-emailTitle" style="display: none;">
+							<option value="&#39;Lora&#39;, Georgia, Times, serif" selected="selected">Serif</option>
+					      	<option value="&#39;Open Sans&#39;, Helvetica, Arial, sans-serif">Sans-Serif</option>
+					    </select><span tabindex="0" id="fontFamily-emailTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontFamily-emailTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Serif</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Align</a>
+		               	<select name="emailTitle" data-class="p" id="textAlign-emailTitle" style="display: none;">
+		               		<option value="right">Right</option>
+		               		<option value="left">Left</option>
+					      	<option value="center" selected="selected">Center</option>
+					      	<option value="justify">Justify</option>
+					    </select><span tabindex="0" id="textAlign-emailTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textAlign-emailTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Center</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Transform</a>
+		               	<select name="emailTitle" data-class="p" id="textTransform-emailTitle" style="display: none;">
+					      <option value="capitalize">Capitalize</option>
+					      <option value="uppercase">Uppercase</option>
+					      <option value="lowercase">Lowercase</option>
+					      <option value="none" selected="selected">None</option>
+					    </select><span tabindex="0" id="textTransform-emailTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textTransform-emailTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">None</span></span>
+		            </li>
+				</ul>
+
+				<h3 class="headerBlock ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" data-img="bld/img/emailmenu.png" role="tab" id="ui-id-15" aria-controls="ui-id-16" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Header Email Sub Title</h3>
+				<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-16" aria-labelledby="ui-id-15" role="tabpanel" aria-hidden="true" style="display: none;">
+					<li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Size</a>
+		                <select name="emailTimeStamp" data-class="p" id="fontSize-emailTimeStamp" style="display: none;">
+		                  <option value="11" selected="selected">11px</option>
+					      <option value="12">12px</option>
+					      <option value="14">14px</option>
+					      <option value="16">16px</option>
+					      <option value="18">18px</option>
+					      <option value="20">20px</option>
+					      <option value="22">22px</option>
+					      <option value="24">24px</option>
+					      <option value="26">26px</option>
+					      <option value="28">28px</option>
+					      <option value="30">30px</option>
+					    </select><span tabindex="0" id="fontSize-emailTimeStamp-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontSize-emailTimeStamp-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">11px</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Weight</a>
+		                <select name="emailTimeStamp" data-class="p" id="fontWeight-emailTimeStamp" style="display: none;">
+					      <option value="300">300</option>
+					      <option value="400" selected="selected">400</option>
+					      <option value="600">600</option>
+					      <option value="700">700</option>
+					    </select><span tabindex="0" id="fontWeight-emailTimeStamp-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontWeight-emailTimeStamp-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">400</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Family Type</a>
+		                <select name="emailTimeStamp" data-class="p" id="fontFamily-emailTimeStamp" style="display: none;">
+							<option value="&#39;Lora&#39;, Georgia, Times, serif">Serif</option>
+					      	<option value="&#39;Open Sans&#39;, Helvetica, Arial, sans-serif" selected="selected">Sans-Serif</option>
+					    </select><span tabindex="0" id="fontFamily-emailTimeStamp-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontFamily-emailTimeStamp-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Sans-Serif</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Align</a>
+		               	<select name="emailTimeStamp" data-class="p" id="textAlign-emailTimeStamp" style="display: none;">
+		               		<option value="right">Right</option>
+					      	<option value="center" selected="selected">Center</option>
+					      	<option value="left">Left</option>
+					      	<option value="justify">Justify</option>
+					    </select><span tabindex="0" id="textAlign-emailTimeStamp-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textAlign-emailTimeStamp-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Center</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Transform</a>
+		               	<select name="emailTimeStamp" data-class="p" id="textTransform-emailTimeStamp" style="display: none;">
+					      <option value="capitalize">Capitalize</option>
+					      <option value="uppercase">Uppercase</option>
+					      <option value="lowercase">Lowercase</option>
+					      <option value="none" selected="selected">None</option>
+					    </select><span tabindex="0" id="textTransform-emailTimeStamp-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textTransform-emailTimeStamp-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">None</span></span>
+		            </li>
+				</ul>
+
+				<h3 class="catagory-textColor ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" data-img="bld/img/postcatagory.png" role="tab" id="ui-id-17" aria-controls="ui-id-18" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Catagory font style</h3>
+				<ul class="catagory-textColor ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-18" aria-labelledby="ui-id-17" role="tabpanel" aria-hidden="true" style="display: none;">
+					<li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Size</a>
+		                <select name="postCatagory" data-class="a" id="fontSize-postCatagory" style="display: none;">
+		                  <option value="11">11px</option>
+					      <option value="12" selected="selected">12px</option>
+					      <option value="14">14px</option>
+					      <option value="16">16px</option>
+					      <option value="18">18px</option>
+					      <option value="20">20px</option>
+					      <option value="22">22px</option>
+					      <option value="24">24px</option>
+					      <option value="26">26px</option>
+					      <option value="28">28px</option>
+					      <option value="30">30px</option>
+					    </select><span tabindex="0" id="fontSize-postCatagory-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontSize-postCatagory-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">12px</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Weight</a>
+		                <select name="postCatagory" data-class="a" id="fontWeight-postCatagory" style="display: none;">
+					      <option value="300">300</option>
+					      <option value="400">400</option>
+					      <option value="600">600</option>
+					      <option value="700" selected="selected">700</option>
+					    </select><span tabindex="0" id="fontWeight-postCatagory-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontWeight-postCatagory-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">700</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Family Type</a>
+		                <select name="postCatagory" data-class="a" id="fontFamily-postCatagory" style="display: none;">
+							<option value="&#39;Lora&#39;, Georgia, Times, serif">Serif</option>
+					      	<option value="&#39;Open Sans&#39;, Helvetica, Arial, sans-serif" selected="selected">Sans-Serif</option>
+					    </select><span tabindex="0" id="fontFamily-postCatagory-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontFamily-postCatagory-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Sans-Serif</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Align</a>
+		               	<select name="postCatagory" data-class="a" id="catAlign-postCatagory" style="display: none;">
+		               		<option value="right">Right</option>
+					      	<option value="left">Left</option>
+					      	<option value="center" selected="selected">Center</option>
+					      	<option value="justify">Justify</option>
+					    </select><span tabindex="0" id="catAlign-postCatagory-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="catAlign-postCatagory-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Center</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Transform</a>
+		               	<select name="postCatagory" data-class="a" id="textTransform-postCatagory" style="display: none;">
+					      <option value="capitalize">Capitalize</option>
+					      <option value="uppercase">Uppercase</option>
+					      <option value="lowercase">Lowercase</option>
+					      <option value="none" selected="selected">None</option>
+					    </select><span tabindex="0" id="textTransform-postCatagory-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textTransform-postCatagory-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">None</span></span>
+		            </li>
+				</ul>
+
+				<h3 data-img="bld/img/posttitle.png" class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" role="tab" id="ui-id-19" aria-controls="ui-id-20" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Title font style</h3>
+				<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-20" aria-labelledby="ui-id-19" role="tabpanel" aria-hidden="true" style="display: none;">
+					<li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Size</a>
+		                <select name="postTitle" data-class="h2" id="fontSize-postTitle" style="display: none;">
+					      <option value="11">11px</option>
+					      <option value="12">12px</option>
+					      <option value="14">14px</option>
+					      <option value="16">16px</option>
+					      <option value="18">18px</option>
+					      <option value="20">20px</option>
+					      <option value="22" selected="selected">22px</option>
+					      <option value="24">24px</option>
+					      <option value="26">26px</option>
+					      <option value="28">28px</option>
+					      <option value="30">30px</option>
+					    </select><span tabindex="0" id="fontSize-postTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontSize-postTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">22px</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Weight</a>
+		                <select name="postTitle" data-class="h2" id="fontWeight-postTitle" style="display: none;">
+					      <option value="300">300</option>
+					      <option value="400">400</option>
+					      <option value="600">600</option>
+					      <option value="700" selected="selected">700</option>
+					    </select><span tabindex="0" id="fontWeight-postTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontWeight-postTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">700</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Family Type</a>
+		                <select name="postTitle" data-class="h2" id="fontFamily-postTitle" style="display: none;">
+							<option value="&#39;Lora&#39;, Georgia, Times, serif">Serif</option>
+					      	<option value="&#39;Open Sans&#39;, Helvetica, Arial, sans-serif" selected="selected">Sans-Serif</option>
+					    </select><span tabindex="0" id="fontFamily-postTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontFamily-postTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Sans-Serif</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Align</a>
+		               	<select name="postTitle" data-class="h2" id="textAlign-postTitle" style="display: none;">
+		               		<option value="right">Right</option>
+					      	<option value="center" selected="selected">Center</option>
+					      	<option value="left">Left</option>
+					      	<option value="justify">Justify</option>
+					    </select><span tabindex="0" id="textAlign-postTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textAlign-postTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Center</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Transform</a>
+		               	<select name="postTitle" data-class="h2" id="textTransform-postTitle" style="display: none;">
+					      <option value="capitalize">Capitalize</option>
+					      <option value="uppercase" selected="selected">Uppercase</option>
+					      <option value="lowercase">Lowercase</option>
+					      <option value="none">None</option>
+					    </select><span tabindex="0" id="textTransform-postTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textTransform-postTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Uppercase</span></span>
+		            </li>
+				</ul>
+
+				<h3 data-img="bld/img/postdesc.png" class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" role="tab" id="ui-id-21" aria-controls="ui-id-22" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Description font style</h3>
+				<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-22" aria-labelledby="ui-id-21" role="tabpanel" aria-hidden="true" style="display: none;">
+					<li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Size</a>
+		                <select name="postDesc" data-class="p" id="fontSize-postDesc" style="display: none;">
+					      <option value="11">11px</option>
+					      <option value="12" selected="selected">12px</option>
+					      <option value="14">14px</option>
+					      <option value="16">16px</option>
+					      <option value="18">18px</option>
+					      <option value="20">20px</option>
+					      <option value="22">22px</option>
+					      <option value="24">24px</option>
+					      <option value="26">26px</option>
+					      <option value="28">28px</option>
+					      <option value="30">30px</option>
+					    </select><span tabindex="0" id="fontSize-postDesc-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontSize-postDesc-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">12px</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Weight</a>
+		                <select name="postDesc" data-class="p" id="fontWeight-postDesc" style="display: none;">
+					      <option value="300">300</option>
+					      <option value="400" selected="selected">400</option>
+					      <option value="600">600</option>
+					      <option value="700">700</option>
+					    </select><span tabindex="0" id="fontWeight-postDesc-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontWeight-postDesc-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">400</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Family Type</a>
+		                <select name="postDesc" data-class="p" id="fontFamily-postDesc" style="display: none;">
+							<option value="&#39;Lora&#39;, Georgia, Times, serif">Serif</option>
+					      	<option value="&#39;Open Sans&#39;, Helvetica, Arial, sans-serif" selected="selected">Sans-Serif</option>
+					    </select><span tabindex="0" id="fontFamily-postDesc-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontFamily-postDesc-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Sans-Serif</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Align</a>
+		               	<select name="postDesc" data-class="p" id="textAlign-postDesc" style="display: none;">
+		               		<option value="right">Right</option>
+					      	<option value="left" selected="selected">Left</option>
+					      	<option value="center">Center</option>
+					      	<option value="justify">Justify</option>
+					    </select><span tabindex="0" id="textAlign-postDesc-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textAlign-postDesc-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Left</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Transform</a>
+		               	<select name="postDesc" data-class="p" id="textTransform-postDesc" style="display: none;">
+					      <option value="capitalize">Capitalize</option>
+					      <option value="uppercase">Uppercase</option>
+					      <option value="lowercase">Lowercase</option>
+					      <option value="none" selected="selected">None</option>
+					    </select><span tabindex="0" id="textTransform-postDesc-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textTransform-postDesc-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">None</span></span>
+		            </li>
+				</ul>
+
+				<h3 data-img="bld/img/postbtn.png" class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" role="tab" id="ui-id-23" aria-controls="ui-id-24" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Button Font Style</h3>
+				<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-24" aria-labelledby="ui-id-23" role="tabpanel" aria-hidden="true" style="display: none;">
+					<li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Size</a>
+		                <select name="postButton" data-class="a" id="fontSize-postButton" style="display: none;">
+					      <option value="11">11px</option>
+					      <option value="12" selected="selected">12px</option>
+					      <option value="14">14px</option>
+					      <option value="16">16px</option>
+					      <option value="18">18px</option>
+					      <option value="20">20px</option>
+					      <option value="22">22px</option>
+					      <option value="24">24px</option>
+					      <option value="26">26px</option>
+					      <option value="28">28px</option>
+					      <option value="30">30px</option>
+					    </select><span tabindex="0" id="fontSize-postButton-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontSize-postButton-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">12px</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Weight</a>
+		                <select name="postButton" data-class="a" id="fontWeight-postButton" style="display: none;">
+					      <option value="300">300</option>
+					      <option value="400">400</option>
+					      <option value="600">600</option>
+					      <option value="700" selected="selected">700</option>
+					    </select><span tabindex="0" id="fontWeight-postButton-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontWeight-postButton-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">700</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Family Type</a>
+		                <select name="postButton" data-class="a" id="fontFamily-postButton" style="display: none;">
+							<option value="&#39;Lora&#39;, Georgia, Times, serif">Serif</option>
+					      	<option value="&#39;Open Sans&#39;, Helvetica, Arial, sans-serif" selected="selected">Sans-Serif</option>
+					    </select><span tabindex="0" id="fontFamily-postButton-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontFamily-postButton-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Sans-Serif</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Button-Align</a>
+		               	<select name="btnTable" data-class="a" id="btnAlign-btnTable" style="display: none;">
+		               		<option value="right">Right</option>
+					      	<option value="left">Left</option>
+					      	<option value="center" selected="selected">Center</option>
+					      	<option value="justify">Justify</option>
+					    </select><span tabindex="0" id="btnAlign-btnTable-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="btnAlign-btnTable-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Center</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Transform</a>
+		               	<select name="postButton" data-class="a" id="textTransform-postButton" style="display: none;">
+					      <option value="capitalize">Capitalize</option>
+					      <option value="uppercase">Uppercase</option>
+					      <option value="lowercase">Lowercase</option>
+					      <option value="none" selected="selected">None</option>
+					    </select><span tabindex="0" id="textTransform-postButton-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textTransform-postButton-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">None</span></span>
+		            </li>
+				</ul>
+
+				<h3 class="footerBlock ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" data-img="bld/img/brandinfo.png" role="tab" id="ui-id-25" aria-controls="ui-id-26" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Footer Font Style</h3>
+				<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-26" aria-labelledby="ui-id-25" role="tabpanel" aria-hidden="true" style="display: none;">
+					<li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Size</a>
+		                <select name="footer" data-class="p" id="fontSize-footer" style="display: none;">
+					      <option value="11" selected="selected">11px</option>
+					      <option value="12">12px</option>
+					      <option value="14">14px</option>
+					      <option value="16">16px</option>
+					      <option value="18">18px</option>
+					      <option value="20">20px</option>
+					      <option value="22">22px</option>
+					      <option value="24">24px</option>
+					      <option value="26">26px</option>
+					      <option value="28">28px</option>
+					      <option value="30">30px</option>
+					    </select><span tabindex="0" id="fontSize-footer-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontSize-footer-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">11px</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Weight</a>
+		                <select name="footer" data-class="p" id="fontWeight-footer" style="display: none;">
+					      <option value="300">300</option>
+					      <option value="400" selected="selected">400</option>
+					      <option value="600">600</option>
+					      <option value="700">700</option>
+					    </select><span tabindex="0" id="fontWeight-footer-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontWeight-footer-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">400</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Family Type</a>
+		                <select name="footer" data-class="p" id="fontFamily-footer" style="display: none;">
+							<option value="&#39;Lora&#39;, Georgia, Times, serif">Serif</option>
+					      	<option value="&#39;Open Sans&#39;, Helvetica, Arial, sans-serif" selected="selected">Sans-Serif</option>
+					    </select><span tabindex="0" id="fontFamily-footer-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontFamily-footer-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Sans-Serif</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Align</a>
+		               	<select name="footer" data-class="p" id="textAlign-footer" style="display: none;">
+		               		<option value="right">Right</option>
+					      	<option value="left">Left</option>
+					      	<option value="center" selected="selected">Center</option>
+					      	<option value="justify">Justify</option>
+					    </select><span tabindex="0" id="textAlign-footer-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textAlign-footer-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Center</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Transform</a>
+		               	<select name="footer" data-class="p" id="textTransform-footer" style="display: none;">
+					      <option value="capitalize">Capitalize</option>
+					      <option value="uppercase">Uppercase</option>
+					      <option value="lowercase">Lowercase</option>
+					      <option value="none" selected="selected">None</option>
+					    </select><span tabindex="0" id="textTransform-footer-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textTransform-footer-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">None</span></span>
+		            </li>
+				</ul>
+
+				<h3 class="footerBlock ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" role="tab" id="ui-id-27" aria-controls="ui-id-28" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Sp Block Title Font Style</h3>
+				<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-28" aria-labelledby="ui-id-27" role="tabpanel" aria-hidden="true" style="display: none;">
+					<li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Size</a>
+		                <select name="cardTitle" data-class="h2" id="fontSize-cardTitle" style="display: none;">
+					      <option value="11" selected="selected">11px</option>
+					      <option value="12">12px</option>
+					      <option value="14">14px</option>
+					      <option value="16">16px</option>
+					      <option value="18">18px</option>
+					      <option value="20">20px</option>
+					      <option value="22">22px</option>
+					      <option value="24">24px</option>
+					      <option value="26">26px</option>
+					      <option value="28">28px</option>
+					      <option value="30">30px</option>
+					    </select><span tabindex="0" id="fontSize-cardTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontSize-cardTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">11px</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Weight</a>
+		                <select name="cardTitle" data-class="h2" id="fontWeight-cardTitle" style="display: none;">
+					      <option value="300">300</option>
+					      <option value="400" selected="selected">400</option>
+					      <option value="600">600</option>
+					      <option value="700">700</option>
+					    </select><span tabindex="0" id="fontWeight-cardTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontWeight-cardTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">400</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Family Type</a>
+		                <select name="cardTitle" data-class="h2" id="fontFamily-cardTitle" style="display: none;">
+							<option value="&#39;Lora&#39;, Georgia, Times, serif">Serif</option>
+					      	<option value="&#39;Open Sans&#39;, Helvetica, Arial, sans-serif" selected="selected">Sans-Serif</option>
+					    </select><span tabindex="0" id="fontFamily-cardTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontFamily-cardTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Sans-Serif</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Transform</a>
+		               	<select name="cardTitle" data-class="h2" id="textTransform-cardTitle" style="display: none;">
+					      <option value="capitalize">Capitalize</option>
+					      <option value="uppercase">Uppercase</option>
+					      <option value="lowercase">Lowercase</option>
+					      <option value="none" selected="selected">None</option>
+					    </select><span tabindex="0" id="textTransform-cardTitle-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textTransform-cardTitle-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">None</span></span>
+		            </li>
+				</ul>
+
+				<h3 class="footerBlock ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" role="tab" id="ui-id-29" aria-controls="ui-id-30" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Sp Block Desc. Font Style</h3>
+				<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-30" aria-labelledby="ui-id-29" role="tabpanel" aria-hidden="true" style="display: none;">
+					<li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Size</a>
+		                <select name="cardDesc" data-class="p" id="fontSize-cardDesc" style="display: none;">
+					      <option value="11" selected="selected">11px</option>
+					      <option value="12">12px</option>
+					      <option value="14">14px</option>
+					      <option value="16">16px</option>
+					      <option value="18">18px</option>
+					      <option value="20">20px</option>
+					      <option value="22">22px</option>
+					      <option value="24">24px</option>
+					      <option value="26">26px</option>
+					      <option value="28">28px</option>
+					      <option value="30">30px</option>
+					    </select><span tabindex="0" id="fontSize-cardDesc-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontSize-cardDesc-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">11px</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Weight</a>
+		                <select name="cardDesc" data-class="p" id="fontWeight-cardDesc" style="display: none;">
+					      <option value="300">300</option>
+					      <option value="400" selected="selected">400</option>
+					      <option value="600">600</option>
+					      <option value="700">700</option>
+					    </select><span tabindex="0" id="fontWeight-cardDesc-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontWeight-cardDesc-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">400</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Font-Family Type</a>
+		                <select name="cardDesc" data-class="p" id="fontFamily-cardDesc" style="display: none;">
+							<option value="&#39;Lora&#39;, Georgia, Times, serif">Serif</option>
+					      	<option value="&#39;Open Sans&#39;, Helvetica, Arial, sans-serif" selected="selected">Sans-Serif</option>
+					    </select><span tabindex="0" id="fontFamily-cardDesc-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="fontFamily-cardDesc-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Sans-Serif</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Align</a>
+		               	<select name="cardDesc" data-class="p" id="textAlign-cardDesc" style="display: none;">
+		               		<option value="right">Right</option>
+					      	<option value="left">Left</option>
+					      	<option value="center" selected="selected">Center</option>
+					      	<option value="justify">Justify</option>
+					    </select><span tabindex="0" id="textAlign-cardDesc-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textAlign-cardDesc-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Center</span></span>
+		            </li>
+		            <li>
+		                <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Text-Transform</a>
+		               	<select name="cardDesc" data-class="p" id="textTransform-cardDesc" style="display: none;">
+					      <option value="capitalize">Capitalize</option>
+					      <option value="uppercase">Uppercase</option>
+					      <option value="lowercase">Lowercase</option>
+					      <option value="none" selected="selected">None</option>
+					    </select><span tabindex="0" id="textTransform-cardDesc-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="textTransform-cardDesc-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">None</span></span>
+		            </li>
+				</ul>
+			</div>
+			<div style="height:100px"></div>
+		</div>
+
+		<div class="toolsSection__block">
+			<div class="info__text">Blocks Active / Deactive</div>
+
+			<div class="info__text">Headers Layout</div>
+			<ul class="header__layouts">
+				<li data-img="bld/img/logo.png">
+                    <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Logo Width : Don't add px, %</a>
+                    <input type="text" id="logo-width">
+                </li>
+
+				<li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Header in Card</a>
+			        <div class="switch-button switch-button-xs">
+			           <input type="checkbox" name="card-header" id="card-header">
+			            <span><label for="card-header"></label></span>
+			        </div>
+			    </li>
+
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Header with Title</a>
+			        <div class="switch-button switch-button-xs">
+			           <input type="checkbox" checked="" name="header-title" id="header-title">
+			            <span><label for="header-title"></label></span>
+			        </div>
+			    </li>
+
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Header with Menu</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="header-menu" id="header-menu">
+			            <span><label for="header-menu"></label></span>
+			        </div>
+			    </li>
+
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Header Only Logo</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="header-logo" id="header-logo">
+			            <span><label for="header-logo"></label></span>
+			        </div>
+			    </li>
+			</ul>
+
+			<div class="info__text">Special Blocks Layout</div>
+			<ul class="exBlocks__layouts">
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Author Card</a>
+			        <div class="switch-button switch-button-xs">
+			           <input type="checkbox" checked="" name="card-author" id="card-author">
+			            <span><label for="card-author"></label></span>
+			        </div>
+			    </li>
+
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Social Card</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="card-social" id="card-social">
+			            <span><label for="card-social"></label></span>
+			        </div>
+			    </li>
+
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Offers Card</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="card-offers" id="card-offers">
+			            <span><label for="card-offers"></label></span>
+			        </div>
+			    </li>
+
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Quotes Card</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="card-quotes" id="card-quotes">
+			            <span><label for="card-quotes"></label></span>
+			        </div>
+			    </li>
+			</ul>
+
+			<div class="info__text">App Links</div>
+			<ul class="footer__appLinks">
+				<li data-img="bld/img/app.png">
+                    <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Play Store</a>
+                    <div class="switch-button switch-button-xs">
+                    	<input type="checkbox" checked="" name="play" id="play-store">
+                    	<span><label for="play-store"></label></span>
+                    </div>        
+                </li>
+
+                <li data-img="bld/img/app.png">
+                    <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">App Store</a>
+                    <div class="switch-button switch-button-xs">
+                        <input type="checkbox" checked="" name="app" id="app-store">
+                        <span><label for="app-store"></label></span>
+                    </div>
+                                
+                </li>
+			</ul>
+
+			<div class="info__text">Card Shadow</div>
+			<ul class="cardShadow__layouts">
+				<li data-img="bld/img/default.png">
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Default Shadow</a>
+			        <div class="switch-button switch-button-xs">
+			           <input type="checkbox" checked="" name="cardShadow-noshadow" id="cardShadow-noshadow">
+			           <span><label for="cardShadow-noshadow"></label></span>
+			        </div>
+			    </li>
+
+			    <li data-img="bld/img/shadow.png">
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Small Shadow</a>
+			        <div class="switch-button switch-button-xs">
+			           <input type="checkbox" name="cardShadow-small" id="cardShadow-small">
+			           <span><label for="cardShadow-small"></label></span>
+			        </div>
+			    </li>
+
+			    <li data-img="bld/img/shadowbt.png">
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Shadow in Bottom</a>
+			        <div class="switch-button switch-button-xs">
+			           <input type="checkbox" name="cardShadow-bottom" id="cardShadow-bottom">
+			           <span><label for="cardShadow-bottom"></label></span>
+			        </div>
+			    </li>
+
+			    <li data-img="bld/img/shadowfull.png">
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Full Shadow</a>
+			        <div class="switch-button switch-button-xs">
+			           <input type="checkbox" name="cardShadow-full" id="cardShadow-full">
+			           <span><label for="cardShadow-full"></label></span>
+			        </div>
+			    </li>
+			</ul>
+
+			<div class="info__text">Card Setting</div>
+			<ul class="cards__layouts">
+				<li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Default Card Layout</a>
+			        <div class="switch-button switch-button-xs">
+			           <input type="checkbox" checked="" name="email-defaultcard" id="email-defaultcard">
+			           <span><label for="email-defaultcard"></label></span>
+			        </div>
+			    </li>
+
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">No Card</a>
+			        <div class="switch-button switch-button-xs">
+			           <input type="checkbox" name="email-nocard" id="email-nocard">
+			           <span><label for="email-nocard"></label></span>
+			        </div>
+			    </li>
+
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">All in Card</a>
+			        <div class="switch-button switch-button-xs">
+			           <input type="checkbox" name="email-allcard" id="email-allcard">
+			           <span><label for="email-allcard"></label></span>
+			        </div>
+			    </li>
+			</ul>
+
+		</div>
+
+		<div class="toolsSection__social">
+			<div class="info__text">Social Style</div>
+			<ul class="social__iconStyle">
+			    <li data-img="bld/img/default.png">
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Minimal Social Icons</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" checked="" name="social-minimal" id="social-minimal">
+			            <span><label for="social-minimal"></label></span>
+			        </div>
+			    </li>
+			    <li data-img="bld/img/socialicons.png">
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Color Social Icons</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="social-color" id="social-color">
+			            <span><label for="social-color"></label></span>
+			        </div>
+			    </li>
+			</ul>
+
+			<div class="info__text">Social Icons</div>
+			<ul class="social__icons">
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Facebook</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" checked="" name="facebook" id="link-facebook">
+			            <span><label for="link-facebook"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Twitter</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" checked="" name="twitter" id="link-twitter">
+			            <span><label for="link-twitter"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Pintrest</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" checked="" name="pintrest" id="link-pintrest">
+			            <span><label for="link-pintrest"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Instagram</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" checked="" name="instagram" id="link-instagram">
+			            <span><label for="link-instagram"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Linkdin</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" checked="" name="linkdin" id="link-linkdin">
+			            <span><label for="link-linkdin"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Google +</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="google" id="link-google"><span>
+			                                <label for="link-google"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Youtube</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="youtube" id="link-youtube">
+			            <span><label for="link-youtube"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Snapchat</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="snapchat" id="link-snapchat">
+			            <span><label for="link-snapchat"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Tumblr</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="tumblr" id="link-tumblr">
+			            <span><label for="link-tumblr"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Medium</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="medium" id="link-medium">
+			            <span><label for="link-medium"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">RSS</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="rss" id="link-rss">
+			            <span><label for="link-rss"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Dribbble</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="dribbble" id="link-dribbble">
+			            <span><label for="link-dribbble"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Behance</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="behance" id="link-behance">
+			            <span><label for="link-behance"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Flickr</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="flickr" id="link-flickr">
+			            <span><label for="link-flickr"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Spotify</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="spotify" id="link-spotify">
+			            <span><label for="link-spotify"></label></span>
+			        </div>
+			    </li>
+			    <li>
+			        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">Soundcloud</a>
+			        <div class="switch-button switch-button-xs">
+			            <input type="checkbox" name="soundcloud" id="link-soundcloud">
+			            <span><label for="link-soundcloud"></label></span>
+			        </div>
+			    </li>
+			</ul>
+		</div>
+
+		<div class="toolsSection__save">
+			<div class="info__text">Save / Export Email Template </div>
+			<ul class="export__options">
+				<li class="save-mc" name="mc">
+					<img src="./Responsive Online Email Builder_files/mc.svg" alt="mailchimp">
+					 <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">MailChimp</a>
+				</li>
+				<li class="save-cm" name="cm">
+					<img src="./Responsive Online Email Builder_files/cm.svg" alt="CampaignMonitor">
+					 <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">CampaignMonitor</a>
+				</li>
+				<li class="save-html" name="html">
+					<img src="./Responsive Online Email Builder_files/html5.svg" alt="html5">
+					 <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">HTML5</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="toolsSection__item">
+			
+<ul class="block__wrapper">
+	<div class="info__text">Email Templates</div>
+	<!-- <li>
+		<a target="_blank" href="http://weekly.grapestheme.com/newsletter"><img src="bld/img/2-2-panel.png" data-img="https://s3.envato.com/files/234046560/01_weekly_theme_preview.__large_preview.jpg" alt="Weekly" title="Weekly" />
+	</li> -->
+
+
+	<div id="accordion-item" style="margin-bottom: 250px" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+		<h3 class="ui-accordion-header ui-corner-top ui-state-default ui-accordion-header-active ui-state-active ui-accordion-icons" role="tab" id="ui-id-1" aria-controls="ui-id-2" aria-selected="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Layout One</h3>
+		<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content ui-accordion-content-active" id="ui-id-2" aria-labelledby="ui-id-1" role="tabpanel" style="display: block;" aria-hidden="false">
+			<li data-img="bld/template/1-sc.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-1">Single Column</a>
+			</li>
+			<li data-img="bld/template/1-mg.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-1-masonry-grid">Masonry Grid</a>
+			</li>
+			<li data-img="bld/template/1-mt.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-1-metro-grid">Metro Grid</a>
+			</li>
+			<li data-img="bld/template/1-tc.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-1-two-col">Two Column</a>
+			</li>
+			<li data-img="bld/template/1-fp.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-1-single-post">Single Artical</a>
+			</li>
+		</ul>
+
+		<h3 class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" role="tab" id="ui-id-3" aria-controls="ui-id-4" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Layout Two</h3>
+		<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-4" aria-labelledby="ui-id-3" role="tabpanel" aria-hidden="true" style="display: none;">
+			<li data-img="bld/template/2-sc.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-2">Single Column</a>
+			</li>
+			<li data-img="bld/template/2-mg.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-2-masonry-grid">Masonry Grid</a>
+			</li>
+			<li data-img="bld/template/2-mt.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-2-metro-grid">Metro Grid</a>
+			</li>
+			<li data-img="bld/template/2-tc.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-2-two-col">Two Column</a>
+			</li>
+			<li data-img="bld/template/2-fp.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-2-single-post">Single Artical</a>
+			</li>
+		</ul>
+
+		<h3 class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Layout Three</h3>
+		<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-6" aria-labelledby="ui-id-5" role="tabpanel" aria-hidden="true" style="display: none;">
+			<li data-img="bld/template/3-sc.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3">Single Column</a>
+			</li>
+			<li data-img="bld/template/3-mg.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-masonry-grid">Masonry Grid</a>
+			</li>
+			<li data-img="bld/template/3-mt.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid">Metro Grid</a>
+			</li>
+			<li data-img="bld/template/3-tc.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-two-col">Two Column</a>
+			</li>
+			<li data-img="bld/template/3-fp.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-single-post">Single Artical</a>
+			</li>
+		</ul>
+
+		<h3 class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" role="tab" id="ui-id-7" aria-controls="ui-id-8" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Layout Four</h3>
+		<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-8" aria-labelledby="ui-id-7" role="tabpanel" aria-hidden="true" style="display: none;">
+			<li data-img="bld/template/4-sc.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-4">Single Column</a>
+			</li>
+			<li data-img="bld/template/4-mg.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-4-masonry-grid">Masonry Grid</a>
+			</li>
+			<li data-img="bld/template/4-mt.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-4-metro-grid">Metro Grid</a>
+			</li>
+			<li data-img="bld/template/4-tc.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-4-two-col">Two Column</a>
+			</li>
+			<li data-img="bld/template/4-fp.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-4-single-post">Single Artical</a>
+			</li>
+		</ul>
+
+		<h3 class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" role="tab" id="ui-id-9" aria-controls="ui-id-10" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Layout Five</h3>
+		<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-10" aria-labelledby="ui-id-9" role="tabpanel" aria-hidden="true" style="display: none;">
+			<li data-img="bld/template/5-sc.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-5">Single Column</a>
+			</li>
+			<li data-img="bld/template/5-mg.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-5-masonry-grid">Masonry Grid</a>
+			</li>
+			<li data-img="bld/template/5-mt.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-5-metro-grid">Metro Grid</a>
+			</li>
+			<li data-img="bld/template/5-tc.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-5-two-col">Two Column</a>
+			</li>
+			<li data-img="bld/template/5-fp.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-5-single-post">Single Artical</a>
+			</li>
+		</ul>
+
+		<h3 class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" role="tab" id="ui-id-11" aria-controls="ui-id-12" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Notification Templates</h3>
+		<ul class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-12" aria-labelledby="ui-id-11" role="tabpanel" aria-hidden="true" style="display: none;">
+			<li data-img="bld/template/welcome.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-welcome">Welcome Email</a>
+			</li>
+			<li data-img="bld/template/subscribe.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-subscribe">Subscribe Confirmation</a>
+			</li>
+			<li data-img="bld/template/account.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-account">Account Confirmation</a>
+			</li>
+			<li data-img="bld/template/password.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-password">Password Reset Email</a>
+			</li>
+			<li data-img="bld/template/unsubscribe.png">
+				<a target="_blank" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-unsubscribe">Unsubscribe Confirmation</a>
+			</li>
+		</ul>
+	</div>
+	
+</ul>		</div>
+
+	</div>
+	
+	<div class="header__tools" style="width: 1437px;">
+
+		<ul class="bld__navbar_mobile">
+            <li>
+            	<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank">
+            		<img src="./Responsive Online Email Builder_files/logo.svg" alt="Logo">
+            	</a>
+            </li>
+        </ul>
+
+        <ul class="bld__navbar_mobile mrk float-right">
+            <li>
+            	<a style="background: #6f54a3;" href="https://themeforest.net/downloads" target="_blank">Give us High Ratings</a>
+            </li>
+        </ul>
+
+        <ul class="bld__navbar">
+            <li class="dekstop__device" title="Desktop View"><i class="ion-android-laptop"></i></li>
+            <li class="tablet__device" title="Tab View"><i class="ion-android-phone-portrait"></i></li>
+            <li class="mobile__device" title="Mobile View"><i class="ion-iphone"></i></li>
+            <li class="reset__frame" title="Reset Frame" style="margin:0 10px"><i class="ion-ios-loop-strong"></i></li>
+        </ul>
+
+        <ul class="bld__navbar float-right" style="margin-right:0 10px">
+            <!-- <li class="dekstop__device" title="Others Templates"><i class="ion-ios-albums"></i></li> -->
+            <li class="update__info" title="Updates"><a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#info-edit" rel="modal:open"><i class="ion-information-circled"></i></a></li>
+            <!-- <li style="background: #ffcae6;"></li>
+            <li style="background: #cbc2fb;"></li>
+            <li style="background: #aeebe6;"></li>
+            <li style="background: #fed259;"></li>
+            <li style="background: #333333;"></li>
+            <li style="background: #000000;"></li> -->
+        </ul>
+
+	</div>
+	
+	<div class="info-words">* To Excess Email Builder Open Up in Desktop</div>
+
+	<div class="canvas" style="height: 830px; width: 1437px;">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout:fixed; background-color:#F5F5F5;" id="bodyTable">
+	<tbody><tr>
+		<td align="center" valign="top" id="bodyCell">
+		<!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" style="width:620px;" width="620"><tr><td align="center" valign="top"><![endif]-->
+		
+		<!--Wrapper Table Open //-->
+		<table border="0" cellpadding="0" cellspacing="0" style="max-width:620px;" width="100%" class="wrapperTable">
+			<tbody><tr>
+				<td align="center" valign="top" class="wrapperCell">
+
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="wrapperPreHeader">
+						<tbody><tr>
+							<td align="center" valign="top" style="padding-left:10px;padding-right:10px;">
+								
+								<!-- Email PreHeader Open //-->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="emailPreHeader">
+									<tbody><tr>
+										<td align="right" valign="top" style="padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:20px;">
+
+											<!-- Email View in Browser // -->
+											<a mc:edit="preHeaderText" class="smlText hide" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="color:#BBBBBB; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:11px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:20px; text-transform:none; text-align:right; text-decoration:underline; padding:0; margin:0">
+												Trouble seeing this email?
+											</a>
+
+										</td>
+									</tr>
+								</tbody></table>
+								<!-- Email PreHeader Close //-->
+								
+							</td>
+						</tr>
+					</tbody></table>
+
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="wrapperHeader">
+						<tbody><tr>
+							<td align="center" valign="top" style="padding-left:10px;padding-right:10px;">
+								
+								<!-- Email Header Open //-->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="emailHeader">
+									<tbody><tr>
+										<td align="center" valign="middle" style="padding-top:40px;padding-bottom:20px;padding-left:20px;padding-right:20px;" class="emailLogo">
+											<!-- Logo and Link  // -->
+											<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="text-decoration:none;">
+												<img mc:edit="logo" src="./Responsive Online Email Builder_files/logo.png" alt="" width="80" border="0" style="height:auto; display:block;">
+											</a>
+										</td>
+									</tr>
+
+									<tr>
+										<td align="center" valign="middle" style="padding-bottom: 5px; padding-left: 20px; padding-right: 20px;" class="emailTitle">
+											<!-- Email Header Title  // -->
+											<p mc:edit="emailTitle" class="bigText" style="color:#A5A5A5; font-family: Lora, Georgia, Times, serif; font-size:24px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:32px; text-transform:none; text-align:center; padding:0; margin:0;">
+												News &amp; Events | Spring 2023
+											</p>
+										</td>
+									</tr>
+
+									<tr>
+										<td align="center" valign="middle" style="padding-bottom: 40px; padding-left: 20px; padding-right: 20px;" class="emailTimeStamp">
+											<!-- Email Time Stamp  // -->
+											<p mc:edit="emailTimeStamp" class="smlText" style="color:#999999; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:11px; font-weight:400; line-height:20px; font-style:normal; letter-spacing:normal; text-transform:none; text-align:center; margin:0; padding:0;">
+												December 9th 2020
+											</p>
+										</td>
+									</tr>
+								</tbody></table>
+								<!-- Email Header Close //-->
+								
+							</td>
+						</tr>
+					</tbody></table>
+
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="wrapperArticals">
+						<tbody><tr>
+							<td align="center" valign="top" class="articalCell">
+
+								<!-- One Column Artical Open //-->
+								<table mc:repeatable="oneColumn" border="0" cellpadding="0" cellspacing="0" width="100%" class="oneColumn" style="">
+									<tbody><tr>
+										<td style="padding-left:10px;padding-right:10px;padding-bottom:20px">
+
+											<table border="0" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF;" width="100%" class="columnFull">
+												<tbody><tr>
+													<td align="center" valign="top" style="padding-bottom: 40px;" class="postImg">
+														<!-- Post Image  // -->
+														<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="text-decoration:none;">
+															<img mc:edit="postImg" src="./Responsive Online Email Builder_files/21.jpg" width="600" alt="" border="0" style="width:100%; max-width:600px; height:auto; display:block;">
+														</a>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="left" valign="top" style="padding-bottom: 10px; padding-left: 20px; padding-right: 20px;" class="postCatagory">
+														<!-- Catagory Wrapper Table // -->
+														<table border="0" cellpadding="0" cellspacing="0">
+															<tbody><tr>
+																<td align="center">
+																	<!-- Catagory Link // -->
+																	<a mc:edit="postCatagory" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" class="smlText" style="color:#8D6CD1; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:600; font-style:normal; letter-spacing:0.5px; line-height:20px; text-align:center; text-decoration:none; padding:0; margin:0;">
+																		We Work Like a Blog																	<img src="./Responsive Online Email Builder_files/line.png" width="30" border="0" style="width:30px;height:auto; display:inline-block;vertical-align:middle;margin:5px">
+																	</a>
+																</td>
+															</tr>
+														</tbody></table>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postTitle">
+														<!-- Title Text // -->
+														<h2 mc:edit="postTitle" class="bigText" style="color:#191919; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:20px; font-weight:700; font-style:normal; letter-spacing:normal; line-height:28px; text-align:left; text-transform:uppercase; padding:0; margin:0;">
+															Social Media &amp; Senior Living? You Bet.
+														</h2>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postDesc">
+														<!-- Post Description // -->
+														<p mc:edit="postDesc" class="midText" style="color:#777777; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:14px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:20px; text-transform:none; text-align:left; padding:0; margin:0;">
+															Senior living is a relationship business. It just is. Relationships between staff and residents. Relationships between your community and the larger community. And, yes, relationships between your sales team and age- and income-qualified prospects. Can social media play a part in developing and nurturing those relationships? It can. IF you have a thoughtful approach to what you post, where you post it and what you expect to get out of the effort.
+															<br><br>															
+“A well-planned social strategy isn’t just about posting on Facebook once in a while,” says Angell Marketing’s digital content manager, Nathalie Warner. “It’s about thoughtfully representing your brand in a way that encourages engagement. Authentic engagement from residents, family members and staff is what opens the door to prospects.”
+<br><br>
+
+Get up to speed and into the game:</p>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="left" valign="top" style="padding-bottom: 40px; padding-left: 20px; padding-right: 20px;" class="btnTable">
+														<!-- Button Table // -->
+														<table align="left" border="0" cellpadding="0" cellspacing="0">
+															<tbody><tr>
+																<td align="left" class="postButton" style="border-bottom:2px solid #dddddd;padding:5px 0px;">
+																	<!-- Post Button Link // -->
+																	<a mc:edit="postButton" href="https://www.angellmarketing.com/2023/01/10/do-senior-living-communities-need-social-media-platforms/" target="_blank" style="color:#242379; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:700; font-style:normal; letter-spacing:0.5px; line-height:20px; text-transform:uppercase; text-decoration:none; padding:0; margin:0; display:block;" class="">
+																		Learn More
+																	</a>
+																</td>
+															</tr>
+														</tbody></table>
+													</td>
+												</tr>
+											</tbody></table>
+
+										</td>
+									</tr>
+								</tbody></table>
+								<!-- One Column Artical Close //-->
+								
+								<!-- Two Column Artical Open //-->
+								
+								<!-- Two Column Artical Open //-->
+
+								<!-- One Column Artical Open //-->
+								<table mc:repeatable="oneColumn" border="0" cellpadding="0" cellspacing="0" width="100%" class="oneColumn" style="">
+									<tbody><tr>
+										<td style="padding-left:10px;padding-right:10px;padding-bottom:20px">
+
+											<table border="0" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF;" width="100%" class="columnFull">
+												<tbody><tr>
+													<td align="center" valign="top" style="padding-bottom: 40px;" class="postImg">
+														<!-- Post Image  // -->
+														<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="text-decoration:none;">
+															<img mc:edit="postImg" src="./Responsive Online Email Builder_files/24.jpg" width="600" alt="" border="0" style="width:100%; max-width:600px; height:auto; display:block;">
+														</a>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="left" valign="top" style="padding-bottom: 10px; padding-left: 20px; padding-right: 20px;" class="postCatagory">
+														<!-- Catagory Wrapper Table // -->
+														<table border="0" cellpadding="0" cellspacing="0">
+															<tbody><tr>
+																<td align="center">
+																	<!-- Catagory Link // -->
+																	<a mc:edit="postCatagory" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" class="smlText" style="color:#8D6CD1; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:600; font-style:normal; letter-spacing:0.5px; line-height:20px; text-align:center; text-decoration:none; padding:0; margin:0;">
+																		What’s on the Front-Burner?
+																	<img src="./Responsive Online Email Builder_files/line.png" width="30" border="0" style="width:30px;height:auto; display:inline-block;vertical-align:middle;margin:5px">
+																	</a>
+																</td>
+															</tr>
+														</tbody></table>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postTitle">
+														<!-- Title Text // -->
+														<h2 mc:edit="postTitle" class="bigText" style="color:#191919; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:20px; font-weight:700; font-style:normal; letter-spacing:normal; line-height:28px; text-align:left; text-transform:uppercase; padding:0; margin:0;">
+															Fostering a Referral-Rich Mindset
+														</h2>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postDesc">
+														<!-- Post Description // -->
+														<p mc:edit="postDesc" class="midText" style="color:#777777; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:14px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:20px; text-transform:none; text-align:left; padding:0; margin:0;">
+															In the world of sales, the term “low-hanging fruit” can induce eyerolls. (Let’s face it, it’s a little trite). But in the world of senior living marketing and sales, it’s difficult to find a better/cheaper/faster/easier lead than one that results from a resident referral. So … maybe it’s not so tired after all? Grab a basket and start picking.
+
+“Putting the residents into a referral mindset means engaging them in creating the community THEY WANT,” says Angell Marketing’s VP director of client strategy. “Who better to advocate for the amenities, activities and overall lifestyle you offer than happy residents?”
+
+Angell Marketing has developed a comprehensive resident referral program called CONNECT that puts residents, family members, employees, vendors and friends in a referral mindset – making them the ambassadors to your brand (and a handy extension of your sales team).
+
+See how the CONNECT program worked for a senior community in Phoenix.</p>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="left" valign="top" style="padding-bottom: 40px; padding-left: 20px; padding-right: 20px;" class="btnTable">
+														<!-- Button Table // -->
+														<table align="left" border="0" cellpadding="0" cellspacing="0">
+															<tbody><tr>
+																<td align="left" class="postButton" style="border-bottom:2px solid #dddddd;padding:5px 0px;">
+																	<!-- Post Button Link // -->
+																	<a mc:edit="postButton" href="https://www.angellmarketing.com/work/beatitudes-campus/" target="_blank" style="color:#191919; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:700; font-style:normal; letter-spacing:0.5px; line-height:20px; text-transform:uppercase; text-decoration:none; padding:0; margin:0; display:block;" class="">
+																		Learn More
+																	</a>
+																</td>
+															</tr>
+														</tbody></table>
+													</td>
+												</tr>
+											</tbody></table>
+
+										</td>
+									</tr>
+								</tbody></table>
+								<!-- One Column Artical Close //-->
+
+								<!-- Two Column Artical Open //-->
+								
+								<!-- Two Column Artical Open //-->
+
+								<!-- One Column Artical Open //-->
+								<table mc:repeatable="oneColumn" border="0" cellpadding="0" cellspacing="0" width="100%" class="oneColumn" style="">
+									<tbody><tr>
+										<td style="padding-left:10px;padding-right:10px;padding-bottom:20px">
+
+											<table border="0" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF;" width="100%" class="columnFull">
+												<tbody><tr>
+													<td align="center" valign="top" style="padding-bottom: 40px;" class="postImg">
+														<!-- Post Image  // -->
+														<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="text-decoration:none;">
+															<img mc:edit="postImg" src="./Responsive Online Email Builder_files/27.jpg" width="600" alt="" border="0" style="width:100%; max-width:600px; height:auto; display:block;">
+														</a>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="left" valign="top" style="padding-bottom: 10px; padding-left: 20px; padding-right: 20px;" class="postCatagory">
+														<!-- Catagory Wrapper Table // -->
+														<table border="0" cellpadding="0" cellspacing="0">
+															<tbody><tr>
+																<td align="center">
+																	<!-- Catagory Link // -->
+																	<a mc:edit="postCatagory" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" class="smlText" style="color:#8D6CD1; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:600; font-style:normal; letter-spacing:0.5px; line-height:20px; text-align:center; text-decoration:none; padding:0; margin:0;">
+																		The Angell Effect
+																		<img src="./Responsive Online Email Builder_files/line.png" width="30" border="0" style="width:30px;height:auto; display:inline-block;vertical-align:middle;margin:5px">
+																	</a>
+																</td>
+															</tr>
+														</tbody></table>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postTitle">
+														<!-- Title Text // -->
+														<h2 mc:edit="postTitle" class="bigText" style="color:#191919; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:20px; font-weight:700; font-style:normal; letter-spacing:normal; line-height:28px; text-align:left; text-transform:uppercase; padding:0; margin:0;">
+															Here We Grow!
+														</h2>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postDesc">
+														<!-- Post Description // -->
+														<p mc:edit="postDesc" class="midText" style="color:#777777; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:14px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:20px; text-transform:none; text-align:left; padding:0; margin:0;">
+															The Angell Marketing team continues to attract highly skilled marketers in a variety of disciplines. A recent addition to our digital squad is Michael Mascetti, search engine optimization (SEO) specialist. Michael brings a wealth of knowledge and expertise in achieving growth within the organic and localized search landscape for our community brands.
+
+“We continue to refine our digital capabilities, and it shows in the results we’re achieving for our communities,” says Angell’s director of digital marketing, Brian Bothamley. “Generating leads and grabbing conversions is Job One for us and adding Michael to our team adds another effective tool to our digital toolbox.” 
+														</p>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="left" valign="top" style="padding-bottom: 40px; padding-left: 20px; padding-right: 20px;" class="btnTable">
+														<!-- Button Table // -->
+														<table align="left" border="0" cellpadding="0" cellspacing="0">
+															<tbody><tr>
+																<td align="left" class="postButton" style="border-bottom:2px solid #dddddd;padding:5px 0px;">
+																	<!-- Post Button Link // -->
+																	<a mc:edit="postButton" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="color:#191919; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:700; font-style:normal; letter-spacing:0.5px; line-height:20px; text-transform:uppercase; text-decoration:none; padding:0; margin:0; display:block;" class=""></a>
+																</td>
+															</tr>
+														</tbody></table>
+													</td>
+												</tr>
+											</tbody></table>
+
+										</td>
+									</tr>
+								</tbody></table>
+								<!-- One Column Artical Close //-->
+
+								<!-- Two Column Artical Open //-->
+								<table mc:repeatable="oneColumn" border="0" cellpadding="0" cellspacing="0" width="100%" class="oneColumn" style="">
+									<tbody><tr>
+										<td style="padding-left:10px;padding-right:10px;padding-bottom:20px">
+
+											<table border="0" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF;" width="100%" class="columnFull">
+												<tbody><tr>
+													<td align="center" valign="top" style="padding-bottom: 40px;" class="postImg">
+														<!-- Post Image  // -->
+														<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="text-decoration:none;">
+															<img mc:edit="postImg" src="./Responsive Online Email Builder_files/27.jpg" width="600" alt="" border="0" style="width:100%; max-width:600px; height:auto; display:block;">
+														</a>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="left" valign="top" style="padding-bottom: 10px; padding-left: 20px; padding-right: 20px;" class="postCatagory">
+														<!-- Catagory Wrapper Table // -->
+														<table border="0" cellpadding="0" cellspacing="0">
+															<tbody><tr>
+																<td align="center">
+																	<!-- Catagory Link // -->
+																	<a mc:edit="postCatagory" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" class="smlText" style="color:#8D6CD1; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:600; font-style:normal; letter-spacing:0.5px; line-height:20px; text-align:center; text-decoration:none; padding:0; margin:0;">
+																		Angells Out &amp; About
+																		<img src="./Responsive Online Email Builder_files/line.png" width="30" border="0" style="width:30px;height:auto; display:inline-block;vertical-align:middle;margin:5px">
+																	</a>
+																</td>
+															</tr>
+														</tbody></table>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postTitle">
+														<!-- Title Text // -->
+														<h2 mc:edit="postTitle" class="bigText" style="color:#191919; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:20px; font-weight:700; font-style:normal; letter-spacing:normal; line-height:28px; text-align:left; text-transform:uppercase; padding:0; margin:0;">
+															We Love Our Communities AND Our Community!
+														</h2>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postDesc">
+														<!-- Post Description // -->
+														<p mc:edit="postDesc" class="midText" style="color:#777777; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:14px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:20px; text-transform:none; text-align:left; padding:0; margin:0;">
+															Our team was psyched to provide creative direction for a full-scale video and photo shoot at The Variel in Burbank, CA. And let’s just say, these residents were no strangers to the bright lights and production hijinks of a publicity shoot.
+The Angell Marketing team helped distribute meals to families in Phoenix at St. Mary’s Food Bank. Working together to do good is important to us!</p>
+													</td>
+												</tr>
+
+												<tr>
+													<td align="left" valign="top" style="padding-bottom: 40px; padding-left: 20px; padding-right: 20px;" class="btnTable">
+														<!-- Button Table // -->
+														<table align="left" border="0" cellpadding="0" cellspacing="0">
+															<tbody><tr>
+																<td align="left" class="postButton" style="border-bottom:2px solid #dddddd;padding:5px 0px;">
+																	<!-- Post Button Link // -->
+																	<a mc:edit="postButton" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="color:#191919; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:700; font-style:normal; letter-spacing:0.5px; line-height:20px; text-transform:uppercase; text-decoration:none; padding:0; margin:0; display:block;" class=""></a>
+																</td>
+															</tr>
+														</tbody></table>
+													</td>
+												</tr>
+											</tbody></table>
+
+										</td>
+									</tr>
+								</tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="twoColumn" style="">
+									<tbody><tr>
+										<td align="center" valign="top" style="padding:0px 0px 0px 0px;font-size:0;">
+											<!--[if (gte mso 9)|(IE)]><table width="620"><tr><td width="300" valign="top"><![endif]-->
+		
+											<!-- Artical Column Left Open //-->
+											<div style="display:inline-block; max-width:310px; vertical-align:top; width:100%;" class="maxWidth">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%" class="columnLeft" mc:repeatable="columnLeft">
+													<tbody><tr>
+														<td align="center" valign="top" style="padding-left:10px;padding-right:10px;padding-bottom:20px">
+
+															<!-- Column Left Open //-->
+															<table border="0" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF" width="100%" class="column">
+																<tbody><tr>
+																	<td align="center" valign="top" style="padding-bottom: 40px;" class="postImg">
+																		<!-- Post Image  // -->
+																		<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="text-decoration:none;">
+																			<img mc:edit="postImg" src="./Responsive Online Email Builder_files/28.jpg" width="290" alt="" border="0" style="width:100%; max-width:290px; height:auto; display:block;" class="maxWidth">
+																		</a>
+																	</td>
+																</tr>
+
+																<tr>
+																	<td align="left" valign="top" style="padding-bottom: 10px; padding-left: 20px; padding-right: 20px;" class="postCatagory">
+																		<!-- Catagory Wrapper Table // -->
+																		<table border="0" cellpadding="0" cellspacing="0">
+																			<tbody><tr>
+																				<td align="center">
+																					<!-- Catagory Link // -->
+																					<a mc:edit="postCatagory" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" class="smlText" style="color:#8D6CD1; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:600; font-style:normal; letter-spacing:0.5px; line-height:20px; text-align:center; text-decoration:none; padding:0; margin:0;">
+																						Here We Grow!
+																					<img src="./Responsive Online Email Builder_files/line.png" width="30" border="0" style="width:30px;height:auto; display:inline-block;vertical-align:middle;margin:5px">
+																					</a>
+																				</td>
+																			</tr>
+																		</tbody></table>
+																	</td>
+																</tr>
+
+																<tr>
+																	<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postTitle">
+																		<!-- Title Text // -->
+																		<h2 mc:edit="postTitle" class="bigText" style="color:#191919; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:20px; font-weight:700; font-style:normal; letter-spacing:normal; line-height:28px; text-align:left; text-transform:uppercase; padding:0; margin:0;">
+																			Simple post for Smart Blog
+																		</h2>
+																	</td>
+																</tr>
+
+																<tr>
+																	<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postDesc">
+																		<!-- Post Description // -->
+																		<p mc:edit="postDesc" class="midText" style="color:#777777; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:14px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:20px; text-transform:none; text-align:left; padding:0; margin:0;">
+																			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. 
+																		</p>
+																	</td>
+																</tr>
+
+																<tr>
+																	<td align="left" valign="top" style="padding-bottom: 40px; padding-left: 20px; padding-right: 20px;" class="btnTable">
+																		<!-- Button Table // -->
+																		<table align="left" border="0" cellpadding="0" cellspacing="0">
+																			<tbody><tr>
+																				<td align="left" class="postButton" style="border-bottom:2px solid #dddddd;padding:5px 0px;">
+																					<!-- Post Button Link // -->
+																					<a mc:edit="postButton" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="color:#191919; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:700; font-style:normal; letter-spacing:0.5px; line-height:20px; text-transform:uppercase; text-decoration:none; padding:0; margin:0; display:block;">
+																						Read More
+																					</a>
+																				</td>
+																			</tr>
+																		</tbody></table>
+																	</td>
+																</tr>
+															</tbody></table>
+															<!-- Column Left Close //-->
+
+														</td>
+													</tr>
+												</tbody></table>
+											</div>
+											<!-- Artical Column Left Close //-->
+	
+											<!--[if (gte mso 9)|(IE)]></td><td width="300" valign="top"><![endif]-->
+
+											<!-- Artical Column Right Open //-->
+											<div style="display:inline-block; max-width:310px; vertical-align:top; width:100%;" class="maxWidth">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%" class="columnRight" mc:repeatable="columnRight">
+													<tbody><tr>
+							                            <td align="center" valign="top" style="padding-left:10px;padding-right:10px;padding-bottom:20px">
+															
+															<!-- Column Right Open //-->
+															<table border="0" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF" width="100%" class="column">
+																<tbody><tr>
+																	<td align="center" valign="top" style="padding-bottom: 40px;" class="postImg">
+																		<!-- Post Image  // -->
+																		<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="text-decoration:none;">
+																			<img mc:edit="postImg" src="./Responsive Online Email Builder_files/29.jpg" width="290" alt="" border="0" style="width:100%; max-width:290px; height:auto; display:block;" class="maxWidth">
+																		</a>
+																	</td>
+																</tr>
+
+																<tr>
+																	<td align="left" valign="top" style="padding-bottom: 10px; padding-left: 20px; padding-right: 20px;" class="postCatagory">
+																		<!-- Catagory Wrapper Table // -->
+																		<table border="0" cellpadding="0" cellspacing="0">
+																			<tbody><tr>
+																				<td align="center">
+																					<!-- Catagory Link // -->
+																					<a mc:edit="postCatagory" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" class="smlText" style="color:#8D6CD1; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:600; font-style:normal; letter-spacing:0.5px; line-height:20px; text-align:center; text-decoration:none; padding:0; margin:0;">
+																						Sports
+																					<img src="./Responsive Online Email Builder_files/line.png" width="30" border="0" style="width:30px;height:auto; display:inline-block;vertical-align:middle;margin:5px">
+																					</a>
+																				</td>
+																			</tr>
+																		</tbody></table>
+																	</td>
+																</tr>
+
+																<tr>
+																	<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postTitle">
+																		<!-- Title Text // -->
+																		<h2 mc:edit="postTitle" class="bigText" style="color:#191919; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:20px; font-weight:700; font-style:normal; letter-spacing:normal; line-height:28px; text-align:left; text-transform:uppercase; padding:0; margin:0;">
+																			Claritas Secutus to Laomed
+																		</h2>
+																	</td>
+																</tr>
+
+																<tr>
+																	<td align="center" valign="top" style="padding-bottom: 20px; padding-left: 20px; padding-right: 20px;" class="postDesc">
+																		<!-- Post Description // -->
+																		<p mc:edit="postDesc" class="midText" style="color:#777777; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:14px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:20px; text-transform:none; text-align:left; padding:0; margin:0;">
+																			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. 
+																		</p>
+																	</td>
+																</tr>
+
+																<tr>
+																	<td align="left" valign="top" style="padding-bottom: 40px; padding-left: 20px; padding-right: 20px;" class="btnTable">
+																		<!-- Button Table // -->
+																		<table align="left" border="0" cellpadding="0" cellspacing="0">
+																			<tbody><tr>
+																				<td align="left" class="postButton" style="border-bottom:2px solid #dddddd;padding:5px 0px;">
+																					<!-- Post Button Link // -->
+																					<a mc:edit="postButton" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="color:#191919; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:12px; font-weight:700; font-style:normal; letter-spacing:0.5px; line-height:20px; text-transform:uppercase; text-decoration:none; padding:0; margin:0; display:block;">
+																						Read More
+																					</a>
+																				</td>
+																			</tr>
+																		</tbody></table>
+																	</td>
+																</tr>
+															</tbody></table>
+															<!-- Column Right Close //-->
+
+														</td>
+													</tr>
+												</tbody></table>
+											</div>
+											<!-- Artical Column Right Close //-->
+	
+											<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+										</td>
+									</tr>
+								</tbody></table>
+								<!-- Two Column Artical Open //-->
+
+							<table mc:repeatable="oneColumn" border="0" cellpadding="0" cellspacing="0" width="100%" class="specialCard" style="position: relative;"><ul class="action-wrapper">            <li title="Card Up" class="card-up"> <img src="http://tekton.grapestheme.com/71023121/bld/img/up.png"></li>            <li title="Card Down" class="card-dn"><img src="http://tekton.grapestheme.com/71023121/bld/img/down.png"></li>            <li title="Card Remove" class="card-remove"><img src="http://tekton.grapestheme.com/71023121/bld/img/remove.png"></li>            </ul>
+                        <tbody><tr>
+                            <td style="padding-left:10px;padding-right:10px;padding-bottom:20px">
+                                <table mc:repeatable="oneColumn" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody><tr>
+                                        <td align="center" valign="top" class="specialCardCell">
+                                            <table border="0" cellpadding="0" cellspacing="0" style="border:10px solid #FFFFFF;background-color:#EEEEEE" width="100%" class="specialCardTable">
+                                                <tbody><tr>
+                                                    <td align="center" valign="top" style="padding-top:40px;padding-bottom:20px;" class="cardID">
+                                                        <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" target="_blank" style="display: inline-block;" class="">
+                                                            <img mc:edit="cardID" src="./Responsive Online Email Builder_files/user.png" alt="" width="70" border="0" style="height:auto;display:block;" class="">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top" style="padding-bottom: 10px; padding-left: 20px; padding-right: 20px;" class="cardTitle">
+                                                        <h2 mc:edit="cardTitle" class="bigText" style="color:#191919; font-family:Open Sans, Helvetica, Arial, sans-serif; font-size:18px; font-weight:700; font-style:normal; letter-spacing:normal; line-height:26px; text-align:center; text-transform:none; padding:0; margin:0;">
+                                                            Here We Grow!
+                                                        </h2>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top" style="padding-bottom:20px;">
+                                                        <table align="center" border="0" width="50" cellpadding="0" cellspacing="0" class="cardDivider">
+                                                            <tbody><tr>
+                                                                <td align="center" style="border-bottom:2px solid #777777;font-size:0;line-height:0;">&nbsp;</td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top" style="padding-bottom: 40px; padding-left: 40px; padding-right: 40px; outline: rgb(179, 179, 179) dotted 2px; position: relative;" class="cardDesc">
+                                                        <p mc:edit="cardDesc" class="midText" style="color:#777777; font-family:Open Sans, Helvetica, Arial, sans-serif; font-size:14px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:20px; text-transform:none; text-align:center; padding:0; margin:0;">
+                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys.<br><br> System Anyalitics, Google.
+                                                        </p>
+                                                    <a class="icon" title="Edit Text" style="position: absolute;display:inline;right:0px;bottom:0;text-align:right;float:right;" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#text-edit" rel="modal:open"><img style="width: 30px;" src="http://tekton.grapestheme.com/71023121/bld/img/image-edit.png"></a></td>
+                                                </tr>
+                                            </tbody></table>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+</td>
+						</tr>
+					</tbody></table>
+
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="wrapperFooter">
+						<tbody><tr>
+							<td align="center" valign="top" style="padding-left:10px;padding-right:10px;">
+								
+								<!-- Email Footer Open //-->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="footer">
+									<tbody><tr>
+										<td align="center" valign="top" style="padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;" class="socialLinks">
+											<!-- Social Links (Facebook)// -->
+											<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#facebook-link" target="_blank" style="display: inline-block;" class="facebook">
+												<img mc:edit="facebook" src="./Responsive Online Email Builder_files/facebook.png" alt="" width="40" border="0" style="height:auto;margin:2px">
+											</a>
+											<!-- Social Links (Twitter)// -->
+											<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#twitter-link" target="_blank" style="display:inline-block;" class="twitter">
+												<img mc:edit="twitter" src="./Responsive Online Email Builder_files/twitter.png" alt="" width="40" border="0" style="height:auto;margin:2px">
+											</a>
+											<!-- Social Links (Pintrest)// -->
+											<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#pintrest-link" target="_blank" style="display: inline-block;" class="pintrest">
+												<img mc:edit="pintrest" src="./Responsive Online Email Builder_files/pintrest.png" alt="" width="40" border="0" style="height:auto;margin:2px">
+											</a>
+											<!-- Social Links (Instagram)// -->
+											<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#instagram-link" target="_blank" style="display: inline-block;" class="instagram">
+												<img mc:edit="instagram" src="./Responsive Online Email Builder_files/instagram.png" alt="" width="40" border="0" style="height:auto;margin:2px">
+											</a>
+											<!-- Social Links (Linkdin)// -->
+											<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#linkdin-link" target="_blank" style="display: inline-block;" class="linkdin">
+												<img mc:edit="linkdin" src="./Responsive Online Email Builder_files/linkdin.png" alt="" width="40" border="0" style="height:auto;margin:2px">
+											</a>
+										</td>
+									</tr>
+
+									<tr>
+										<td align="center" valign="top" style="padding: 10px 10px 5px;" class="brandInfo">
+											<!-- Brand Information // -->
+											<p mc:edit="brandInfo" class="smlText" style="color:#777777; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:11px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:20px; text-transform:none; text-align:center; padding:0; margin:0;">Angell Marketing | 5353 N. 16th Street, Suite 300 | Phoenix, AZ 85016, USA.
+											</p>
+										</td>
+									</tr>
+
+									<tr>
+										<td align="center" valign="top" style="padding: 0px 10px 20px;" class="footerLinks">
+											<!-- Use Full Links (Privacy Policy)// -->
+											<p mc:edit="footerLinks" class="smlText" style="color:#777777; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:11px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:20px; text-transform:none; text-align:center; padding:0; margin:0;">
+												<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" style="color:#777777;text-decoration:underline;" target="_blank">Privacy Policy</a> | <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" style="color:#777777;text-decoration:underline;" target="_blank">Tearms and Conditions</a>
+											</p>
+										</td>
+									</tr>
+
+									<tr>
+										<td align="center" valign="top" style="padding: 0px 10px 10px;" class="footerEmailInfo">
+											<!-- Information of NewsLetter (Subscribe Info)// -->
+											<p mc:edit="footerEmailInfo" class="smlText" style="color:#777777; font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size:11px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:20px; text-transform:none; text-align:center; padding:0; margin:0;">
+												Want to learn more about how our integrated marketing and advertising services can help your Active Adult Community, please contact us <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" style="color:#777777;text-decoration:underline;" target="_blank">shttps://www.angellmarketing.com/</a><br> <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#" style="color:#777777;text-decoration:underline;" target="_blank">Unsubscribe</a> from our mailing lists
+											</p>
+										</td>
+									</tr>
+
+									<tr>
+										<td align="center" valign="top" style="padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;" class="appLinks">
+											<!-- App Links (Anroid)// -->
+											<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" target="_blank" style="display: inline-block;" class="play-store">
+												<img mc:edit="playstore" src="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" alt="" width="120" border="0" style="height:auto;margin:5px" class="">
+											</a>
+											<!-- App Links (IOs)// -->
+											<a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" target="_blank" style="display: inline-block;" class="app-store">
+												<img mc:edit="appstore" src="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" alt="" width="120" border="0" style="height:auto;margin:5px" class="">
+											</a>
+										</td>
+									</tr>
+
+									<!-- Space -->
+									<tr>
+										<td height="30" style="font-size:1px;line-height:1px;">&nbsp;</td>
+									</tr>
+								</tbody></table>
+								<!-- Email Footer Close //-->
+
+							</td>
+						</tr>
+					</tbody></table>
+
+				</td>
+			</tr>
+		</tbody></table>
+		<!-- Wrapper Table Close //-->
+
+		<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+		</td>
+	</tr>
+</tbody></table>
+	</div>
+
+    <div id="text-edit" style="position: fixed; top: 50%; left: 50%; margin-top: -178.5px; margin-left: -200px; z-index: 2; display: none;" class="modal">
+        <div>
+            <p class="text">Edit Text</p>
+            <a class="close" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" rel="modal:close">x</a>
+        </div>
+        <div class="edit-container">
+            <div class="text-info">
+                <span class="text">ENTER TEXT AND SAVE:</span>
+                <textarea id="texteditor"></textarea>
+            </div>
+        </div>
+        <div class="text-save">
+            <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" class="save_text">Save Changes</a>
+        </div>
+    </div>
+
+    <div id="link-edit" style="position: fixed; top: 50%; left: 50%; margin-top: -153.5px; margin-left: -200px; z-index: 2; display: none;" class="modal">
+        <div>
+            <p class="text">Edit link</p>
+            <a class="close" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" rel="modal:close">x</a>
+        </div>
+        <div class="link-container">
+            <div class="link-info">
+                <span class="text">ENTER LINK TEXT:</span>
+                <textarea id="linkeditor" class=""></textarea>
+                <span class="text">ENTER LINK URL :</span>
+                <input type="text" id="text_link">
+            </div>
+        </div>
+        <div class="link-save">
+            <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" class="save_link">Save Changes</a>
+        </div>
+    </div>
+
+    <div id="image-edit" style="display: none;">
+        <div>
+            <p class="text">Edit Image</p>
+            <a class="close" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" rel="modal:close">x</a>
+        </div>
+        <div class="edit-container">
+            <div class="image-info">
+                <span class="text">IMAGE URL : &nbsp;<span style="text-transform:lowercase;" class="image-size">Image width : 120px and height : auto</span></span>
+                <input type="text" id="image_src">
+                <span class="text">IMAGE LINK :</span>
+                <input type="text" id="image_link">
+            </div>
+        </div>
+        <div class="image-save">
+            <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" class="save_image">Save Changes</a>
+        </div>
+    </div>
+
+    <div id="social-edit" style="position: fixed; top: 50%; left: 50%; margin-top: -129px; margin-left: -200px; z-index: 2; display: none;" class="modal">
+        <div>
+            <p class="text">Edit Image and Link </p>
+            <a class="close" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" rel="modal:close">x</a>
+        </div>
+        <div class="edit-container">
+            <div class="image-info">
+                <span class="text">IMAGE URL : &nbsp;<span style="text-transform:lowercase;" class="image-size">Image width : 120px and height : auto</span></span>
+                <input type="text" id="image-src">
+                <span class="text">IMAGE LINK :</span>
+                <input type="text" id="image-link">
+            </div>
+        </div>
+        <div class="social-save">
+            <a href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" class="save_social">Save Changes</a>
+        </div>
+    </div>
+	
+    <div id="info-edit" style="display:none;min-height:250px">
+        <div>
+            <p class="text">Builder Updates and Improvements</p>
+            <a class="close" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" rel="modal:close">x</a>
+        </div>
+        <div class="edit-container">
+            <div class="text-info">
+                <span class="text ss">Future Updates Will Appear Hear :)</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="gift-pop" style="display:none;min-height:250px;">
+        <div class="gift" style="">
+        	<a class="close" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid" rel="modal:close">x</a>
+        	<a href="https://themeforest.net/downloads" target="_blank">
+        		<img src="./Responsive Online Email Builder_files/offer.png" alt="offer">
+        	</a>
+        </div>
+    </div>
+
+</section>
+	<script type="text/javascript" async="" src="./Responsive Online Email Builder_files/analytics.js"></script><script type="text/javascript" src="./Responsive Online Email Builder_files/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./Responsive Online Email Builder_files/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+	<script src="./Responsive Online Email Builder_files/jquery-confirm.min.js"></script>
+	<script type="text/javascript" src="./Responsive Online Email Builder_files/plugin.js"></script>
+	<script type="text/javascript" src="./Responsive Online Email Builder_files/script.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="" src="./Responsive Online Email Builder_files/js"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-111634013-1');
+	</script>
+
+<div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#d8d8d8" data-color="rgb(216, 216, 216)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(216, 216, 216);"></span></span><span title="#dddddd" data-color="rgb(221, 221, 221)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(221, 221, 221);"></span></span><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 255, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#f5f5f4" data-color="rgb(245, 245, 244)" class="sp-thumb-el sp-thumb-light sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(245, 245, 244);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#f5f5f4" data-color="rgb(245, 245, 244)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(245, 245, 244);"></span></span><span title="#d8d8d8" data-color="rgb(216, 216, 216)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(216, 216, 216);"></span></span><span title="#dddddd" data-color="rgb(221, 221, 221)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(221, 221, 221);"></span></span><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#ffffff" data-color="rgb(255, 255, 255)" class="sp-thumb-el sp-thumb-light sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(255, 255, 255);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#ffffff" data-color="rgb(255, 255, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(255, 255, 255);"></span></span><span title="#f5f5f4" data-color="rgb(245, 245, 244)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(245, 245, 244);"></span></span><span title="#d8d8d8" data-color="rgb(216, 216, 216)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(216, 216, 216);"></span></span><span title="#dddddd" data-color="rgb(221, 221, 221)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(221, 221, 221);"></span></span><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#bbbbbb" data-color="rgb(187, 187, 187)" class="sp-thumb-el sp-thumb-light sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(187, 187, 187);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#bbbbbb" data-color="rgb(187, 187, 187)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(187, 187, 187);"></span></span><span title="#ffffff" data-color="rgb(255, 255, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(255, 255, 255);"></span></span><span title="#f5f5f4" data-color="rgb(245, 245, 244)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(245, 245, 244);"></span></span><span title="#d8d8d8" data-color="rgb(216, 216, 216)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(216, 216, 216);"></span></span><span title="#dddddd" data-color="rgb(221, 221, 221)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(221, 221, 221);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span><span title="#bbbbbb" data-color="rgb(187, 187, 187)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(187, 187, 187);"></span></span><span title="#ffffff" data-color="rgb(255, 255, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(255, 255, 255);"></span></span><span title="#f5f5f4" data-color="rgb(245, 245, 244)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(245, 245, 244);"></span></span><span title="#d8d8d8" data-color="rgb(216, 216, 216)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(216, 216, 216);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span><span title="#bbbbbb" data-color="rgb(187, 187, 187)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(187, 187, 187);"></span></span><span title="#ffffff" data-color="rgb(255, 255, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(255, 255, 255);"></span></span><span title="#f5f5f4" data-color="rgb(245, 245, 244)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(245, 245, 244);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(66, 0, 255);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span><span title="#bbbbbb" data-color="rgb(187, 187, 187)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(187, 187, 187);"></span></span><span title="#ffffff" data-color="rgb(255, 255, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(255, 255, 255);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(66, 0, 255);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span><span title="#bbbbbb" data-color="rgb(187, 187, 187)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(187, 187, 187);"></span></span><span title="#ffffff" data-color="rgb(255, 255, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(255, 255, 255);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span><span title="#bbbbbb" data-color="rgb(187, 187, 187)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(187, 187, 187);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span><span title="#bbbbbb" data-color="rgb(187, 187, 187)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(187, 187, 187);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span><span title="#bbbbbb" data-color="rgb(187, 187, 187)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(187, 187, 187);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span><span title="#bbbbbb" data-color="rgb(187, 187, 187)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(187, 187, 187);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#dddddd" data-color="rgb(221, 221, 221)" class="sp-thumb-el sp-thumb-light sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(221, 221, 221);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#dddddd" data-color="rgb(221, 221, 221)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(221, 221, 221);"></span></span><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#dddddd" data-color="rgb(221, 221, 221)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(221, 221, 221);"></span></span><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#dddddd" data-color="rgb(221, 221, 221)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(221, 221, 221);"></span></span><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span><span title="#333333" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#d8d8d8" data-color="rgb(216, 216, 216)" class="sp-thumb-el sp-thumb-light sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(216, 216, 216);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#d8d8d8" data-color="rgb(216, 216, 216)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(216, 216, 216);"></span></span><span title="#dddddd" data-color="rgb(221, 221, 221)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(221, 221, 221);"></span></span><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="sp-container sp-hidden sp-light sp-palette-buttons-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="#d8d8d8" data-color="rgb(216, 216, 216)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(216, 216, 216);"></span></span><span title="#dddddd" data-color="rgb(221, 221, 221)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(221, 221, 221);"></span></span><span title="#191919" data-color="rgb(25, 25, 25)" class="sp-thumb-el sp-thumb-dark"><span class="sp-thumb-inner" style="background-color:rgb(25, 25, 25);"></span></span><span title="#b196ff" data-color="rgb(177, 150, 255)" class="sp-thumb-el sp-thumb-light"><span class="sp-thumb-inner" style="background-color:rgb(177, 150, 255);"></span></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span></div></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div class="sp-color" style="background-color: rgb(255, 0, 0);"><div class="sp-sat"><div class="sp-val"><div class="sp-dragger" style="top: 0px; left: 0px;"></div></div></div></div><div class="sp-clear sp-clear-display" title="Clear Color Selection" style="display: none;"></div><div class="sp-hue"><div class="sp-slider" style="top: 0px;"></div></div></div><div class="sp-alpha"><div class="sp-alpha-inner"><div class="sp-alpha-handle" style="left: 0px;"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" type="text" spellcheck="false"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span data-color="" style="background-color:transparent;" class="sp-clear-display" title="No Color Selected"></span><span title="#777777" data-color="rgb(119, 119, 119)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(119, 119, 119);"></span></span></div></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="http://tekton.grapestheme.com/71023121/builder.php?layout=layout-3-metro-grid#">cancel</a><button type="button" class="sp-choose">select</button></div></div></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontSize-emailTitle-button" id="fontSize-emailTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontSize-emailTimeStamp-button" id="fontSize-emailTimeStamp-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontSize-postCatagory-button" id="fontSize-postCatagory-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontSize-postTitle-button" id="fontSize-postTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontSize-postDesc-button" id="fontSize-postDesc-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontSize-postButton-button" id="fontSize-postButton-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontSize-footer-button" id="fontSize-footer-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontSize-cardTitle-button" id="fontSize-cardTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontSize-cardDesc-button" id="fontSize-cardDesc-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontWeight-emailTitle-button" id="fontWeight-emailTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontWeight-emailTimeStamp-button" id="fontWeight-emailTimeStamp-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontWeight-postCatagory-button" id="fontWeight-postCatagory-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontWeight-postTitle-button" id="fontWeight-postTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontWeight-postDesc-button" id="fontWeight-postDesc-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontWeight-postButton-button" id="fontWeight-postButton-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontWeight-footer-button" id="fontWeight-footer-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontWeight-cardTitle-button" id="fontWeight-cardTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontWeight-cardDesc-button" id="fontWeight-cardDesc-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontFamily-emailTitle-button" id="fontFamily-emailTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontFamily-emailTimeStamp-button" id="fontFamily-emailTimeStamp-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontFamily-postCatagory-button" id="fontFamily-postCatagory-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontFamily-postTitle-button" id="fontFamily-postTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontFamily-postDesc-button" id="fontFamily-postDesc-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontFamily-postButton-button" id="fontFamily-postButton-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontFamily-footer-button" id="fontFamily-footer-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontFamily-cardTitle-button" id="fontFamily-cardTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="fontFamily-cardDesc-button" id="fontFamily-cardDesc-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textAlign-emailTitle-button" id="textAlign-emailTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textAlign-emailTimeStamp-button" id="textAlign-emailTimeStamp-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textAlign-postTitle-button" id="textAlign-postTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textAlign-postDesc-button" id="textAlign-postDesc-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textAlign-footer-button" id="textAlign-footer-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textAlign-cardDesc-button" id="textAlign-cardDesc-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="catAlign-postCatagory-button" id="catAlign-postCatagory-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="btnAlign-btnTable-button" id="btnAlign-btnTable-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textTransform-emailTitle-button" id="textTransform-emailTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textTransform-emailTimeStamp-button" id="textTransform-emailTimeStamp-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textTransform-postCatagory-button" id="textTransform-postCatagory-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textTransform-postTitle-button" id="textTransform-postTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textTransform-postDesc-button" id="textTransform-postDesc-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textTransform-postButton-button" id="textTransform-postButton-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textTransform-footer-button" id="textTransform-footer-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textTransform-cardTitle-button" id="textTransform-cardTitle-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="textTransform-cardDesc-button" id="textTransform-cardDesc-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div></body></html>
